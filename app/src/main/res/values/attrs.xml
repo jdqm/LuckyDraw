@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollDrawView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="encryption" format="boolean" />
+    </declare-styleable>
+</resources>

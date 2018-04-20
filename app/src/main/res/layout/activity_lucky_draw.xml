@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.jdqm.luckydraw.LuckyDrawActivity">
+
+    <ImageView
+        android:layout_width="567dp"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:src="@mipmap/just_lucky" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:id="@+id/scrollLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一次，共十名"
+            android:textSize="36sp" />
+
+        <GridLayout
+            android:layout_marginEnd="28dp"
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/start_bg_selector"
+        android:id="@+id/btnAction"
+        android:layout_width="240dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/scrollLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:onClick="start"
+        android:textSize="20dp" />
+
+</RelativeLayout>
