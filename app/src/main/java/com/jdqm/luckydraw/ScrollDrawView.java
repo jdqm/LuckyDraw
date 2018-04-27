@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * 循环滚动抽奖
  * <p>
- * Created by yangsheng on 2018-1-24.
+ * Created by Jdqm on 2018-1-24.
  */
 
 public class ScrollDrawView extends View {

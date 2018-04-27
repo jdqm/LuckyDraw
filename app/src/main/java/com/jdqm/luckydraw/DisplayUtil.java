@@ -4,7 +4,7 @@ import android.content.res.Resources;
 import android.util.DisplayMetrics;
 
 /**
- * Created by yangsheng on 2018-1-24.
+ * Created by Jdqm on 2018-1-24.
  */
 
 public class DisplayUtil {

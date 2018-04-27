@@ -45,8 +45,8 @@ public class LuckyDrawActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lucky_draw);
-        count = getIntent().getIntExtra("count", -1);
-        round = getIntent().getIntExtra("round", -1);
+        count = getIntent().getIntExtra("count", 2);
+        round = getIntent().getIntExtra("round", 1);
         Log.d(TAG, "count: " + count);
         if (count <= 0 || round <= 0) {
             finish();
